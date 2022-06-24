@@ -1,3 +1,65 @@
+img {
+  display: block;
+  width: 100%;
+}
+
 header {
-  padding: 31px 102px 31px 73px;
+  padding: 30px 102px 31px 73px;
+}
+header a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.main_section h1 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 19px;
+}
+.main_section p {
+  margin-bottom: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.carousel-indicators li {
+  width: 183px;
+  background-color: #000000;
+  border-radius: 0px;
+}
+
+.carousel-caption {
+  text-align: left;
+  color: #000000;
+}
+
+.carousel-control-next {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin: 19px;
+}
+
+.carousel-control-prev {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin: 19px;
+}
+
+.btn-outline-secondary {
+  padding: 14px 53px;
 }
