@@ -1,9 +1,23 @@
 $main_font: 'Inter';
 
-
+.container{
+  width: 1290px;
+}
 img{
   display: block;
   width: 100%;
+}
+.logo-wrap{
+  display: inline-block;
+  animation: logo 4s infinite;
+}
+@keyframes logo {
+  0%{
+  //position: absolute;
+  top: 0;
+    transform: scale(0.3);
+}
+
 }
 
 header{
