@@ -19,7 +19,7 @@ header{
   }
 }
 .main_section{
-
+    margin-bottom: 75px;
   h1{
     font-family: 'Readex Pro';
     font-style: normal;
@@ -60,4 +60,49 @@ header{
 }
 .btn-outline-secondary{
   padding: 14px 53px;
+}
+.carousel-control-next:after {
+  content: "\f054";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: black;
+  width: 12px;
+}
+.carousel-control-prev:after{
+  content: "\f053";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: black;
+  width: 12px;
+}
+.offer {
+  padding-bottom: 78px;
+  h2{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 9px;
+  }
+  p{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 55px;
+  }
+
+  .laptop {
+    padding: 0 42px;
+    img{
+      max-width: 500px;
+      display: block;
+    }
+  }
 }
