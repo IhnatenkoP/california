@@ -13,21 +13,6 @@ img {
           animation: logo 4s infinite;
 }
 
-@-webkit-keyframes logo {
-  0% {
-    top: 0;
-    -webkit-transform: scale(0.3);
-            transform: scale(0.3);
-  }
-}
-
-@keyframes logo {
-  0% {
-    top: 0;
-    -webkit-transform: scale(0.3);
-            transform: scale(0.3);
-  }
-}
 header {
   padding: 30px 102px 31px 73px;
 }
@@ -209,6 +194,16 @@ header a {
 
 .ideas {
   padding-bottom: 75px;
+}
+.ideas a {
+  margin-top: 73px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
 }
 .ideas h3 {
   font-family: "Readex Pro";
