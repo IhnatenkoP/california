@@ -131,10 +131,110 @@ header a {
   color: #000000;
   margin-bottom: 55px;
 }
-.offer .laptop {
-  padding: 0 42px;
+
+.most_items {
+  padding-bottom: 74px;
+  padding-top: 78px;
 }
-.offer .laptop img {
-  max-width: 500px;
-  display: block;
+.most_items a {
+  color: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.most_items .card-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4B4B4B;
+}
+.most_items h5 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.the_best {
+  padding-bottom: 75px;
+}
+.the_best h3 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+.the_best p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+}
+.the_best .card {
+  border-radius: 16px;
+  overflow: hidden;
+}
+.the_best .card h5 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+.the_best .card-body {
+  text-align: center;
+  height: 453px;
+}
+.the_best .card-text {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.ideas {
+  padding-bottom: 75px;
+}
+.ideas h3 {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.ideas .text-center p {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 56px;
+}
+.ideas p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
 }
