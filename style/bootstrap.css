@@ -6459,6 +6459,7 @@ a.close.disabled {
 
 .carousel {
   position: relative;
+  background-color: black;
 }
 
 .carousel.pointer-event {
