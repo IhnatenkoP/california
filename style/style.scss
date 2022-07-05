@@ -1,9 +1,5 @@
 $main_font: 'Inter';
 
-
-//.container{
-//  width: 1290px;
-//}
 img{
   display: block;
   width: 100%;
@@ -21,11 +17,12 @@ header{
     color: #000000;
   }
 }
-.main_banner{
+.main_banner {
   background-color: #DCE5E2;
   border-radius: 32px;
   padding-left: 56px;
-  h1{
+
+  h1 {
     font-family: 'Readex Pro';
     font-style: normal;
     font-weight: 400;
@@ -34,7 +31,8 @@ header{
     color: #000000;
     margin-bottom: 19px;
   }
-  p{
+
+  p {
     margin-bottom: 30px;
     font-family: 'Inter';
     font-style: normal;
@@ -44,43 +42,16 @@ header{
     color: #000000;
   }
 
+  .btn-outline-secondary {
+    padding: 14px 53px;
+  }
+}
+.owl-theme .owl-dots .owl-dot span{
+  width: 194px;
+  height: 2px;
+  background: #000000;;
 }
 
-.carousel-indicators li{
-  max-width: 183px;
-  background-color:#000000;
-  border-radius: 0px;
-}
-.carousel-caption{
-  text-align: left;
-  color:#000000;
-}
-.carousel-control-next{
-  justify-content: end;
-  margin: 19px;
-}
-.carousel-control-prev{
-  justify-content: start;
-
-  margin: 19px;
-}
-.btn-outline-secondary{
-  padding: 14px 53px;
-}
-.carousel-control-next:after {
-  content: "\f054";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  color: black;
-  width: 12px;
-}
-.carousel-control-prev:after{
-  content: "\f053";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  color: black;
-  width: 12px;
-}
 .offer {
   padding-bottom: 78px;
   h2{

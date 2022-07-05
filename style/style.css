@@ -39,50 +39,14 @@ header a {
   line-height: 19px;
   color: #000000;
 }
-
-.carousel-indicators li {
-  max-width: 183px;
-  background-color: #000000;
-  border-radius: 0px;
-}
-
-.carousel-caption {
-  text-align: left;
-  color: #000000;
-}
-
-.carousel-control-next {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  margin: 19px;
-}
-
-.carousel-control-prev {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  margin: 19px;
-}
-
-.btn-outline-secondary {
+.main_banner .btn-outline-secondary {
   padding: 14px 53px;
 }
 
-.carousel-control-next:after {
-  content: "\f054";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  color: black;
-  width: 12px;
-}
-
-.carousel-control-prev:after {
-  content: "\f053";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  color: black;
-  width: 12px;
+.owl-theme .owl-dots .owl-dot span {
+  width: 194px;
+  height: 2px;
+  background: #000000;
 }
 
 .offer {
